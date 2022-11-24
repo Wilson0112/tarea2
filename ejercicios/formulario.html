@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+</head>
+<body>
+
+    <header>
+        <a href="../index.html"><img src="img/logo2.jpg" alt="Logo del Sitio Web" width="150" height="150"></a>
+        <h1>Ejercicio Formulario HTML</h1>
+        <nav >
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="errores.html">Erroes corregidos</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="anclas.html">Anclas</a></li>
+                <li><a href="formulario.html">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <article>
+        <h2>Formulario</h2>
+        <form action="https://www.utpl.edu.ec/" method="get">
+
+            <label for="texto">Nombres:</label><br>
+            <input type="text" id="texto" autofocus>
+            <br>
+            <label for="correo">Correo electrónico</label><br>
+            <input type="email" id="correo">
+            <br>
+            <label for="direccion">Dirección sitio web</label><br>
+            <input type="url" id="direccion" value="http://127.0.0.1/tarea2/index.html">
+            <br>
+            <label for="fecha">Fecha</label><br>
+            <input type="date" id="fecha">
+            <br>
+            <label for="hora">Hora</label><br>
+            <input type="time" id="hora">
+            <br>
+            <label for="edad">Edad</label><br>
+            <input type="number" id="edad" min="18" max="65">
+            <br>
+            <label for="Contactos">Contactos</label><br>
+            <input type="tel" id="Contactos">
+            <br>
+            <label for="color">¿Cuál es su color favorito?</label><br>
+            <input type="color" id="color">
+            <br><br>
+
+            <input type="submit" value="Enviar datos">
+            <input type="reset" id="limpiar" >
+        </form>
+    </article>
+
+    <footer>
+        <pre>
+            Copyright © 2022 | <a href="mailto:wsramos@utpl.edu.ec">desarrollado por: Wilson Ramos</a> | todos los derechos reservados
+        </pre>
+    </footer>
+    
+</body>
+</html>
