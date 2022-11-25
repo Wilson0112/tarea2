@@ -1,0 +1,33 @@
+body{
+    background: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navegador{
+    list-style: none;
+    padding: 0;
+    background: #092327;
+    width: 58%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.navegador ul a{
+    text-decoration: none;
+    color: silver;
+    padding: 20px;
+    display: block;
+}
+
+.navegador li{
+    display:inline-block;
+    text-align: center;
+}
+
+.navegador li a:hover{
+    background:red;
+}
+
+footer{
+    text-align: center;
+}
